@@ -2,17 +2,18 @@
 
 ---
 * running the app
-#python3 listener.py
+```
+$python3 listener.py
+```
 
----
 * uploading data with postman
+```
 http://10.211.161.201:8080/api
-
-
-HEADER
+```
+HEADER:
 ```
 content-type: application/json
-BODY (raw/json)
+BODY:
 {"id": "1124"}
 ```
 ---
